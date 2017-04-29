@@ -109,7 +109,7 @@ export class Nav extends Component {
         this.setState({ collapsed: !this.state.collapsed }, () => {
             onClick(this.props.id, null);
             if ( this.subNavEl && !this.s ) {
-                this.subNavEl.style.maxHeight = this.state.collapsed ? '200px' : '0px';
+                this.subNavEl.style.maxHeight = this.state.collapsed ? '400px' : '0px';
             }
         });
     }
