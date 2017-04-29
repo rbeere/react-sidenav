@@ -106,7 +106,7 @@ var Nav = exports.Nav = function (_Component) {
             _this.setState({ collapsed: !_this.state.collapsed }, function () {
                 onClick(_this.props.id, null);
                 if (_this.subNavEl && !_this.s) {
-                    _this.subNavEl.style.maxHeight = _this.state.collapsed ? '200px' : '0px';
+                    _this.subNavEl.style.maxHeight = _this.state.collapsed ? '400px' : '0px';
                 }
             });
         };
